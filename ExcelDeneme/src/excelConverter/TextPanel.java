@@ -41,16 +41,16 @@ public class TextPanel extends JPanel{
 		add(down, BorderLayout.CENTER);
 		
 		
-		/*defaultRadioButton = new JLabel("Default Değerleri Kullan:");
+		/*defaultRadioButton = new JLabel("Default DeÄŸerleri Kullan:");
 		button = new JRadioButton();
 		
 		up.add(defaultRadioButton);
 		up.add(button);*/
 		
-		fisKategoriLabel = new JLabel("(GL)Fiş Kategori:");
+		fisKategoriLabel = new JLabel("(GL)Fis Kategori:");
 		fisKategoriField = new JTextField(12);
 		
-		aciklamaLabel = new JLabel("(GL&RunMuh)Açıklama:");
+		aciklamaLabel = new JLabel("(GL&RunMuh)Acıklama:");
 		aciklamaField = new JTextField(20);
 		
 		tarihLabel = new JLabel("(GL&RunMuh)Tarih(DD.MM.YYYY):");

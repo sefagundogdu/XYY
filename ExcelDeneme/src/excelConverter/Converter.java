@@ -25,7 +25,7 @@ public class Converter {
 	File tersBakiyeExcel;
 	
     public Converter(String fisKategori, String aciklama, String tarih, String fisKesen, String kesilmeDurumu,
-			String selectedDirectory, File tersBakiye, File teminatKodları) {
+			String selectedDirectory, File tersBakiye, File teminatKodlari) {
     	
     	tersBakiyeExcel = tersBakiye;
     	
@@ -40,7 +40,7 @@ public class Converter {
     	
     	String url= selectedDirectory;
 
-    	ArrayList<GLFormat> gl = createGLFormat(list, url+"GLFormat.xlsx", teminatKodları, fisKategori, aciklama, tarih, fisKesen, kesilmeDurumu);
+    	ArrayList<GLFormat> gl = createGLFormat(list, url+"GLFormat.xlsx", teminatKodlari, fisKategori, aciklama, tarih, fisKesen, kesilmeDurumu);
     	
     	
     	for(int i=0;i<gl.size();i++)
